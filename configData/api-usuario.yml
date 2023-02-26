@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: api-usuario
+  cloud:
+    config:
+      import-check:
+        enabled: false
+
 #  datasource:
 #    driverClassName: com.mysql.jdbc.Driver
 #    url: jdbc:mysql://localhost:3306/digitalhouse-dev
@@ -12,6 +17,10 @@ spring:
 #    hibernate.ddl-auto: update
 #    generate-ddl: true
 #    show-sql: true
+
+
+
+
 
 info:
   application:
