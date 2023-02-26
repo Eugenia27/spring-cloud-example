@@ -35,6 +35,3 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-
-max_login_fail: 3
-domain_mail_enabled: @outlook.com, @gmail.com, @digitalhouse.com
